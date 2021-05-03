@@ -43,6 +43,7 @@ box-shadow: 0 10px 30px rgba(0,0,0,0.05);
         padding-top: .2rem;
         display: flex;
         align-items: baseline;
+        font-weight: lighter;
     }/* border, padding, margin, width */
     #fs-frm input, #fs-frm select, #fs-frm textarea, #fs-frm #card-element {
         border: 1px solid rgba(0, 0, 0, 0.2);
@@ -143,11 +144,11 @@ box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xpzkqjpj" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>
-    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <input type="text" name="name" id="full-name" placeholder="First and Last">
     <label for="email-address">Email Address</label>
-    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld">
     <label for="message">Message</label>
-    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus."></textarea>
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
   </fieldset>
   <input type="submit" value="Submit">
